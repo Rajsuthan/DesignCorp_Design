@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1C1C1C;
+}
+
+li,a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.blue {
+  color: #2C8EFF;
+}
+
+nav {
+  font-family: 'Montserrat',sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 60px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  color: white;
+  margin: 0px 40px 0px 0px;
+}
+
+.section1 {
+  font-family: 'Keep calm';
+  color: white;
+}
+
+.section-info1 h1{
+  font-size: 65px;
+  margin: 150px 0px 0px 124px;
+  width: 50%;
+}
+.section-info1 h4 {
+  margin: 20px 0px 0px 124px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.section-info1 .btn {
+  width: 194px;
+  height: 42px;
+  margin: 46px 0px 0px 124px;  
+  background: #2C87FF;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Nunito',sans-serif;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.section-info1 .btn:hover {
+  background: rgb(30, 104, 200);
+  width: 220px;
+}
+
+.section1 img {
+  float: right;
+  margin: -250px 20px 0px 0px;
+  width: 45%;
+}
+
+.section2 {
+  font-family: 'Keep calm',sans-serif;
+  background: #2C87FF;
+  margin: 250px 0px 0px 0px;
+  height: 100vh;
+}
+
+.section-info2 h1{
+  display: inline-block;
+  font-size: 60px;
+  margin: 67px 0px 0px 85px;
+  width: 55%;
+  color: #1C1C1C;
+}
+
+.section-info2 .p-group {
+  margin: 20px 0px 0px 0px;
+}
+
+.section-info2 p {
+  color: white;
+  font-family: 'Nunito',sans-serif;
+  font-size: 24px;
+  width: 47%;
+  margin: 0px 0px 0px 85px;
+}
+
+.section2 img {
+  float: right;
+  margin: -250px 20px 0px 0px;
+  width: 45%;
+}
+
+.section3 {
+  height: 100vh;
+  font-family: 'Keep calm',sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section3 img {
+  width: 100%;
+  margin: 160px 0px 0px 20px;
+}
+
+.section-info3 h1 {
+  color: #2C8EFF;
+  font-size: 60px;
+  margin: 60px 25px 0px 0px;
+  width: 95%;
+}
+
+.section-info3 .p-group {
+  display: inline-block;
+  margin: 65px 0px 0px 80px;
+}
+
+.section-info3 p {
+  color: white;
+  font-family: 'Nunito',sans-serif;
+  font-size: 24px;
+  width: 90%;
+}
+
+.section4 {
+  height: 100vh;
+  background: #2C87FF;
+}
+
+.section-info4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-info4 h1 {
+  margin: 67px 0px 0px 85px;
+  font-family: 'Keep calm',sans-serif;
+  color: #1C1C1C;
+  font-size: 60px;
+  width: 100%;
+}
+
+.section-info4 .p-group {
+  color: white;
+  font-family: 'Nunito',sans-serif;
+  font-size: 24px;
+  margin: 67px 0px 0px 80px;
+}
+.section-info4 p {
+  width: 90%;
+}
+
+.designers {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0px 0px 0px;
+  text-align: center;
+  font-family: 'Keep calm',sans-serif;
+}
+
+.designer1 h4, .designer2 h4, .designer3 h4 {
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+  color: #1C1C1C;
+}
+
+.designer1 p, .designer2 p, .designer3 p {
+  color: white;
+  font-size: 17px;
+}
+
+footer {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  margin: 28px 0px 0px 30px;
+}
+
+footer .input {
+  margin: 20px 30px 0px 0px;
+  position: relative;
+}
+
+
+.input input {
+  width: 225px;
+  height: 45px;
+  padding: 5px 45px 5px 10px;
+  font-family: 'Montserrat',sans-serif;
+  border: none;
+  border: 2px solid #2C87FF;
+  border-radius: 18px;
+}
+
+.input button {
+  position: absolute;
+  background: #2C87FF;
+  color: white;
+  border: none;
+  width: 35px;
+  height: 30px;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  top: 6px;
+  right: 6px;
+  border-radius: 18px 18px 18px 0px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.input button:hover {
+  background: rgb(26, 105, 209);
+  border-radius: 18px 18px 18px 18px;
+}
